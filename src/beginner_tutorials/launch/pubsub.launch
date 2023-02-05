@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="beginner_tutorials" name="pubnode" type="publishstr.py" />
+	<node pkg="beginner_tutorials" name="subnode" type="subscribestr.py" />
+</launch>

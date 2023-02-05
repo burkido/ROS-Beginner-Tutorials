@@ -1,0 +1,9 @@
+<launch>
+
+	<node pkg="turtlesim" name="turtle1" type="turtlesim_node" />
+	<node pkg="turtlesim" name="turtle2" type="turtlesim_node" > 
+		<remap from="turtle1" to="turtle2" />	
+	</node>
+	<node pkg="beginner_tutorials" name="movenode1" type="move3.py" args="1" />
+	<node pkg="beginner_tutorials" name="movenode2" type="move3.py" args="2"/>
+</launch>

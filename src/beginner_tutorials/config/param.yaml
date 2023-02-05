@@ -1,0 +1,13 @@
+background_r: 150
+background_g: 255
+background_b: 60
+
+/turtlesim/background_r: 0
+/turtlesim/background_g: 0
+/turtlesim/background_b: 0
+
+r: 0
+g: 0
+b: 0
+
+

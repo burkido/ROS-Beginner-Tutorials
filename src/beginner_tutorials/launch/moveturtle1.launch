@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="turtlesim" name="turtle1" type="turtlesim_node" />
+	<node pkg="beginner_tutorials" name="movenode1" type="move1.py" />
+</launch>

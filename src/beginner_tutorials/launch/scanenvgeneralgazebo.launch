@@ -1,0 +1,13 @@
+<launch>
+
+	<node pkg="beginner_tutorials" type="scanenv1.py" name="robotmove1" args="0" output="screen" />
+	<node pkg="beginner_tutorials" type="scanenv1.py" name="robotmove2" args="1" output="screen" />
+	<node pkg="beginner_tutorials" type="scanenv1.py" name="robotmove3" args="2" output="screen" />
+
+	<!--
+	<node pkg="beginner_tutorials" type="turtlebot3_obstacle.py" name="robotmove1" args="0" output="screen" />
+	<node pkg="beginner_tutorials" type="turtlebot3_obstacle.py" name="robotmove2" args="1" output="screen" />
+	<node pkg="beginner_tutorials" type="turtlebot3_obstacle.py" name="robotmove3" args="2" output="screen" />
+	-->
+	<!-- This is a comment -->
+</launch>

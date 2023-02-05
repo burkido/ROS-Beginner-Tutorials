@@ -1,0 +1,13 @@
+<launch>
+
+	<!-- use_sim_time is for using time in ROS 
+		stage_ros is the package that runs the simulator
+		beginner_tutorials is the package that runs the robot
+	/> -->
+	
+	<param name="use_sim_time" value="true" />
+	<node pkg="stage_ros" type="stageros" name="stageros" args="$(find beginner_tutorials)/world/worldfile.world" output="screen" />
+
+	<node pkg="beginner_tutorials" type="midterm.py" args="2" name="robotmove" output="screen" />
+	
+</launch>
